@@ -1,5 +1,5 @@
 Hey Everyone, This Repository contains my Codes of Practical Questions that I've been practising in My Generic Elective Paper "Programming using Python" for Semester 1 in Delhi University. 
-For Complete Information, you can open the following file: http://www.du.ac.in/uploads/RevisedSyllabi1/Annexure-86.%20(Comp-Sc-GE).pdf
+For Complete Information, you can refer to the following file: http://www.du.ac.in/uploads/RevisedSyllabi1/Annexure-86.%20(Comp-Sc-GE).pdf
 Further, For convenience, I'm adding the Respective Questions here as well.
 
 # Question 2
