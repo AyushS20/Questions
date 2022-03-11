@@ -22,12 +22,29 @@ def even_sum():
             continue
 even_sum()
 
-# Part (c): Sum of N Natural Numbers
-def natural_n():
-    n = int(input("Enter the number: "))
-    sum1 = 0
-    while(n > 0):
-        sum1 = sum1 + n
-        n = n - 1
-    print("The sum of first", n, "natural numbers is", sum1)
-natural_n()
+# Part (c): sum of Series
+def sumodd(n):
+    return (n * n)
+
+def sumeven(n):
+    return (n * (n + 1))
+
+def findSum(num):
+        sumo = 0
+        sume = 0
+        x = 1
+        cur = 0
+        ans = 0
+        while (num > 0):
+            inc = min(x, num)
+            num -= inc
+            if (cur == 0):
+                ans = ans + sumodd(sumo + inc) - sumodd(sumo)
+                sumo += inc
+            else:
+                ans = ans + sumeven(sume + inc) - sumeven(sume)
+                sume += inc
+            x *= 2
+            cur ^= 1
+        return ans
+findSum(num = int(input("Enter:  ")))
